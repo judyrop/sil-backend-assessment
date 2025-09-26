@@ -240,9 +240,9 @@ func sendSMS(phone, message string) error {
 }
 
 func sendOrderEmail(order models.Order, customer models.Customer, products []models.Product) error {
-	from := "judyrop97@gmail.com"
-	pass := "chepkemoi"
-	to := "ropjudie@gmail.com"
+	from := "cocoa@gmail.com"
+	pass := "cocoa"
+	to := "Hazel@gmail.com"
 	smtpHost := "smtp.gmail.com"
 	smtpPort := "587"
 	body := fmt.Sprintf("Order #%d placed by %s (%s)\nProducts: %+v\nTotal: %.2f",
